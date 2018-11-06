@@ -190,7 +190,7 @@
         hand.write(filename, lines, biases, styles) -->
         sample(lines, biases=biases, styles=styles) which generate strokes from style
         &&
-        draw(strokes, lines, filename, stroke_colors=stroke_colors, stroke_widths=stroke_widths) -->
+        draw(strokes, lines, filename, stroke_colors=stroke_colors, stroke_widths=stroke_widths)
     """
     hand.write(
         filename='img/demo1_1.svg',
